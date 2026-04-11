@@ -1,0 +1,29 @@
+# Local Python environment (rename if you use a different venv path)
+honores/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+**/.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local documents
+documents/
+screenshots/
+data/audit/
+results/embedding_analysis/*.csv
+results/metrics/*.csv

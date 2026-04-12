@@ -1,8 +1,7 @@
 import re
 import pandas as pd
 import spacy
-from textstat import flesch_reading_ease, flesch_kincaid_grade
-from collections import Counter
+from textstat import flesch_reading_ease
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -81,7 +80,7 @@ class TDICalculator:
             avg_syllables_normalized * 0.25
         )
         
-        return min(complexity_score, 1.0)
+        return min(max(complexity_score, 0.0), 1.0)
     
     def calculate_formality_score(self, text):
         """Calculate formality and directive language"""
@@ -282,7 +281,7 @@ class TDICalculator:
                     'age_response': age_response
                 }
                 
-                if domain:
+                if domain_col and domain_col in base_row.columns:
                     result['domain'] = domain
                 
                 results.append(result)
@@ -297,7 +296,7 @@ class TDICalculator:
                 # Use mean of absolute differences for summary display
                 'complexity_diff': lambda x: x.abs().mean(), 
                 'formality_diff': lambda x: x.abs().mean()
-            }).rename(columns={'<lambda>': 'mean_abs_diff'})
+            }).rename(columns={'<lambda>': 'mean_abs_diff'}).round(3)
         else:
             summary = results_df.groupby('age_group').agg({
                 'tdi_score': ['mean', 'std', 'median', 'max'],
@@ -321,7 +320,6 @@ class TDICalculator:
         Args:
             tdi_df: DataFrame with TDI results (from batch_calculate).
             age_group_col: Column with age groups.
-            df_name: String name of the DataFrame variable (for plot labeling).
         """
         if tdi_df.empty:
             print("Warning: TDI DataFrame is empty, cannot generate plots.")

@@ -43,9 +43,9 @@ Audit data also available on HuggingFace: [GPT Audited](https://huggingface.co/d
 ### Install
 
 ```text
-cd path/to/honors
-python -m venv .venv
-.\.venv\Scripts\activate
+cd path/to/age-llm-medical-evaluation
+python -m venv .your-venv-name
+.\.your-venv-name\Scripts\activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_md
 ```

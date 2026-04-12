@@ -68,7 +68,7 @@ Run Jupyter with the **repository root** as the server root, or open notebooks f
 5. **Embeddings:** Copy `data/responses/response_llama_audit.csv` to `data/audit/response_llama_audit.csv` (create `data/audit/` if needed). Run `notebooks/05_embeddings_analysis.ipynb`. Expect long GPU runs for full prompt sets; reduce `batch_size` or rows in development.
 6. **Aggregate metrics:** Run `notebooks/06_metrics_analysis.ipynb`. The first cell adds the repo root to `sys.path` so `from metrics....` imports work from `notebooks/`.
 
-## Summary of results and expected outputs (reproduction)
+## Summary of results and expected outputs
 
 Use these checks to confirm each stage completed successfully.
 

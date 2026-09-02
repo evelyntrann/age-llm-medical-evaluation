@@ -86,6 +86,14 @@ The advisor-facing version is in `ADVISOR_RESEARCH_PLAN.md`.
 - No research-design decision changed; advisor approval and access to clinical raters remain the immediate blockers.
 - Next action: personalize the researcher/advisor fields, send the proposal before the meeting if appropriate, and record the advisor's decisions afterward.
 
+### 2026-09-02 — Clarified external dependencies and clinical workflow
+
+- Clarified that the researcher prepares and quality-checks the candidate questions, deterministic age variants, model responses, identifiers, and annotation package.
+- Clinical involvement has two checkpoints: early validation of the 100-case pilot/rubric and later independent rating of a stratified answer-pair subset.
+- The two clinicians do not need to review all 800-1,000 questions or all model outputs; the proposed minimum remains 400 paired comparisons for the gold evaluation set, with the final size determined from the pilot.
+- Updated `ADVISOR_FIRST_MEETING_PROPOSAL.md` to make this division of work explicit.
+- Major external dependencies remain clinician access, advisor approval, data-governance/IRB guidance, and compute/annotation budget.
+
 ## Memory maintenance protocol
 
 At the start of each substantive session, read this file and the two linked planning documents. Before ending, update the date, decisions, exact files changed, tests or analyses run, results, blockers, and the next concrete action. Preserve earlier entries; correct errors explicitly rather than silently rewriting history.

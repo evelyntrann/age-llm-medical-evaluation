@@ -1,5 +1,7 @@
 # Research Continuation Proposal
 
+> **Superseded after literature review.** Use `ADVISOR_FIRST_MEETING_PROPOSAL_V2.md` for the advisor meeting. This version is retained for comparison.
+
 ## When Should Age Matter? Clinically Calibrated Evaluation of Age-Conditioned Medical Advice from Large Language Models
 
 **Proposed project period:** September 2-November 3, 2026  
@@ -16,25 +18,25 @@ I propose retaining the previous work as a documented pilot while rebuilding the
 
 ### 2. Objective and research questions
 
-The objective is to determine when age conditioning improves medical advice and when it causes inappropriate or harmful differences.
+The objective is to determine when age conditioning improves medical advice and when it causes inappropriate or harmful differences. The design captures two complementary failures: **over-conditioning**, where age changes advice without clinical justification, and **under-conditioning**, where a model fails to adapt when age should matter.
 
-1. Holding all clinical facts constant, how often does patient age materially change an LLM's advice?
-2. Are those changes clinically appropriate, neutral, unnecessarily stereotyped, or potentially harmful?
+1. Does a model remain invariant when age should not matter and adapt appropriately when it should?
+2. What are its rates of over-conditioning, under-conditioning, and harmful adaptation?
 3. How do inappropriate changes vary across model families, patient ages, clinical domains, and case acuity?
 4. Can automated evaluators reproduce clinician judgments without introducing their own age-related bias?
 5. Can a simple prompting intervention reduce inappropriate changes without suppressing beneficial adaptation?
 
 ### 3. Proposed methodology
 
-**Controlled benchmark.** I will curate approximately 800-1,000 first-person medical scenarios from sources with verified licenses. I will remove duplicates, nonmedical questions, already age-specific cases, third-person/caregiver questions, and cases whose clinical facts cannot remain constant. Scenarios will be stratified by clinical domain, acuity, and expected age relevance: age-invariant, age-relevant, or age-conditional.
+**Controlled benchmark.** I will curate a candidate pool of up to 1,000 first-person medical scenarios from sources with verified licenses, prioritizing a smaller, high-quality core over raw scale. I will remove duplicates, nonmedical questions, already age-specific cases, third-person/caregiver questions, and cases whose clinical facts cannot remain constant. Scenarios will be stratified by clinical domain, acuity, and expected age relevance: age-invariant, age-relevant, or age-conditional.
 
 Each scenario will have one age-unspecified version and four exact-age versions—for example, ages 16, 30, 50, and 75. The transformation will be deterministic: only a short age statement will be inserted. No model will rewrite symptoms, duration, history, or patient concerns. Every prompt will have an immutable scenario and condition identifier.
 
-I will prepare and quality-check the candidate questions first. Before full-scale generation, a clinician will review the 100-case pilot, age-relevance labels, acuity labels, and scoring rubric. This early checkpoint prevents generating thousands of answers from clinically unsuitable questions; clinicians do not need to write or review every item in the final dataset.
+I will prepare and quality-check the candidate questions first. Before full-scale generation, a clinician will review the 100-case pilot, age-relevance labels, acuity labels, and scoring rubric. For the clinician-validated core, the reviewer will also specify which response dimensions should remain invariant or adapt with age. This early checkpoint prevents generating thousands of answers from clinically unsuitable questions; clinicians do not need to write or review every item in the extended dataset.
 
 **Model evaluation.** I propose evaluating four complementary model categories: a frontier general model, a smaller production-oriented model, an open-weight general model, and a medically tuned model. Exact model versions will be selected after checking access and cost, then frozen before the main experiment. Prompts, decoding settings, access dates, and response hashes will be recorded. A 100-200-scenario pilot will determine feasibility and final sample size before the full run.
 
-**Clinical outcome rubric.** The primary endpoint will be the rate of **inappropriate age-conditioned clinical change** within paired responses. The rubric will distinguish:
+**Clinical outcome rubric.** The co-primary endpoints will be the rates of **over-conditioning** and **under-conditioning** within paired responses. Harmful age-conditioned change will be reported separately. The rubric will distinguish:
 
 - appropriate adaptation, such as justified changes to screening, differential diagnosis, treatment risk, or escalation;
 - no clinically meaningful change;
@@ -44,7 +46,7 @@ I will prepare and quality-check the candidate questions first. Before full-scal
 
 Tone and readability will be secondary descriptive outcomes. They will not be treated as evidence of clinical harm by themselves. Embedding analysis will be optional exploratory work after the primary clinical evaluation and will not be presented as a causal mechanism.
 
-**Human and automated evaluation.** After answers are generated, two clinically qualified raters will independently evaluate a stratified sample of at least 400 paired comparisons—not the entire model-output dataset. The final number will be based on pilot prevalence and workload. Model identity will be hidden where possible, disagreements will be adjudicated, and inter-rater agreement will be reported.
+**Human and automated evaluation.** After answers are generated, two clinically qualified raters will independently evaluate a stratified sample of at least 400 paired comparisons—not the entire model-output dataset. They will first score each answer's clinical quality and then judge whether the between-age difference is appropriate. The final number will be based on pilot prevalence and workload. Model identity will be hidden where possible, disagreements will be adjudicated, and inter-rater agreement will be reported.
 
 Automated evaluation may be used for scale only after comparison with the human gold set. I will test two independent judge-model families, provide each judge with both the original question and response, require structured outputs, and test whether age labels change the judge's score when answer content is held constant. If judge agreement with clinicians is insufficient, automated findings will remain secondary.
 

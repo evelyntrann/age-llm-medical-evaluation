@@ -1,0 +1,201 @@
+id,question,category
+30,At what age does Marfan syndrome appear?,other_general
+146,Can intracranial hypertension be cured?,cardiovascular
+149,Can lichen planus be cured?,other_general
+171,Can phimosis cause paraphimosis?,other_general
+230,Can you out exercise an unhealthy diet?,nutrition_lifestyle
+256,Can you survive silicosis?,other_general
+272,Do mumps go away on its own?,other_general
+285,Do you still poop with gastroparesis?,reproductive_sexual_health
+316,Does hydronephrosis go away?,other_general
+346,Does tinnitus go away?,other_general
+349,Does typhus still exist?,reproductive_sexual_health
+355,How bipolar is caused?,mental_health
+367,How can I get rid of floaters?,other_general
+382,How can I reduce excess hair?,other_general
+388,How can I relieve my hand pain?,other_general
+408,How can I unblock my nose?,other_general
+458,How do I get my muscles to stop aching?,musculoskeletal
+493,How do I know if I have pulled or torn my hamstring?,other_general
+521,How do I reduce swelling in my joints fast?,musculoskeletal
+526,How do I stop cramps in my legs?,other_general
+541,How do people deal with pain?,other_general
+555,How do you know if you have whooping cough?,respiratory
+560,How do you calm a racing heart?,cardiovascular
+577,How do you deal with a migraine?,neurological
+580,How do you deal with choking?,injury_first_aid
+586,How do you feel when you have high BP?,other_general
+590,How do you fix a dislocated knee cap?,other_general
+625,How do you get prostatitis?,other_general
+651,How do you get rid of phlegm?,other_general
+655,How do you get rid of salivary stones?,other_general
+709,How do you stabilize an unstable relationship?,other_general
+720,How do you tell if it's a bite or a sting?,reproductive_sexual_health
+742,How do you treat eyelid problems?,other_general
+752,How do you treat skin discoloration?,dermatology
+759,How does a fibroid make you feel?,other_general
+816,How does a person get threadworms?,other_general
+840,How is Hep C contracted?,other_general
+879,How long does a typhoid fever last?,infectious_disease
+896,How long does pneumonia last?,respiratory
+916,How long is a person who has shingles contagious?,infectious_disease
+928,How many times should I pee at night?,other_general
+929,How many vomiting is normal during pregnancy?,gastrointestinal
+947,How serious is a stone in the bladder?,other_general
+1014,Is a retinal detachment serious?,other_general
+1044,Is Bell's palsy caused by stress?,mental_health
+1058,Is breast cancer in men fatal?,oncology
+1059,Is bronchiolitis a RSV?,other_general
+1069,Is carcinoid syndrome a neuroendocrine tumor?,oncology
+1076,Is chickenpox a virus or infection?,infectious_disease
+1156,Is hepatitis contagious?,infectious_disease
+1169,Is hydronephrosis a serious problem?,other_general
+1195,Is it normal to have skin discoloration?,dermatology
+1200,Is it OK to be around someone with MRSA?,other_general
+1226,Is molluscum super contagious?,infectious_disease
+1242,Is NMO serious?,other_general
+1271,Is PID always sexually transmitted?,reproductive_sexual_health
+1313,Is slurred speech a stroke?,cardiovascular
+1330,Is there a difference between broken and fractured bone?,musculoskeletal
+1341,Is trichotillomania an OCD or anxiety?,mental_health
+1362,Should I be worried about light sensitivity?,other_general
+1405,What are 3 symptoms of genital warts?,other_general
+1418,What are 3 Types of joint disorders?,musculoskeletal
+1424,What are 4 causes of obesity?,endocrine_metabolic
+1431,What are 4 symptoms of sleep apnea?,nutrition_lifestyle
+1432,What are 4 types of hydrocephalus?,other_general
+1506,What are signs of a high blood sugar?,other_general
+1543,What are the 3 major criteria of toxic shock syndrome?,other_general
+1550,What are the 3 stages of AKI?,other_general
+1551,What are the 3 stages of alcoholic liver disease?,gastrointestinal
+1556,What are the 3 stages of Lyme disease?,other_general
+1572,What are the 3 types of cardiomyopathy?,other_general
+1584,What are the 3 types of insomnia?,mental_health
+1616,What are the 4 signs of respiratory distress?,mental_health
+1658,What are the 5 main allergies?,other_general
+1678,What are the 5 types of discharge?,other_general
+1730,What are the first signs of anaphylactic shock?,other_general
+1734,What are the first signs of eye cancer?,oncology
+1739,What are the first signs of memory loss?,neurological
+1779,What are the main dental problems?,other_general
+1800,What are the signs of abnormal period?,other_general
+1834,What are the symptoms of neurofibromatosis 2?,other_general
+1845,What are the symptoms of synesthesia?,other_general
+1846,What are the symptoms of thought disorder?,other_general
+1850,What are the three causes of hydrocephalus?,other_general
+1851,What are the three stages of empyema?,other_general
+1858,What are the top 10 learning disabilities?,other_general
+1876,What are the usual symptoms of the common cold?,other_general
+1929,What can cause hallucinations and hearing voices?,other_general
+1940,What can nightmares cause?,other_general
+1949,What causes a Baker's cyst to flare up?,other_general
+1958,What causes a person to get pneumonia?,respiratory
+1973,What causes bad smell in nose?,other_general
+1975,What causes benign prostate enlargement?,reproductive_sexual_health
+1982,What causes cramp in legs in bed?,other_general
+1989,What causes difficulty in reading?,other_general
+2021,What causes increased sensitivity to touch?,other_general
+2027,What causes joint grinding?,musculoskeletal
+2050,What causes Paget's disease of bone?,musculoskeletal
+2052,What causes pain in arms and legs?,other_general
+2079,What causes solar keratosis?,other_general
+2127,What do Behcet's sores look like?,other_general
+2129,What do cancerous lumps feel like?,oncology
+2130,What do erythema nodosum look like?,other_general
+2211,What does emotionally detached mean in a relationship?,other_general
+2237,What does it mean when you are sensitive to touch?,other_general
+2244,What does it mean when you regurgitate?,other_general
+2314,What food causes gout?,other_general
+2319,What foods trigger bullous pemphigoid?,other_general
+2359,What happens if you have neurofibromatosis type 1?,other_general
+2389,What happens when you have heart failure?,cardiovascular
+2426,What is a low fertility rate?,reproductive_sexual_health
+2486,What is cystic fibrosis caused by?,reproductive_sexual_health
+2496,What is the difference between type 1 and type 2 diabetes?,endocrine_metabolic
+2526,What is incontinent English?,other_general
+2543,What is life expectancy for oral cancer?,oncology
+2557,What is Morton's neuroma caused by?,other_general
+2560,What is myasthenia gravis and how is it treated?,other_general
+2569,What is oedema vs edema?,other_general
+2592,What is stiffness in medical?,reproductive_sexual_health
+2604,What is the best cure for cellulitis?,other_general
+2680,What is the difference between hypoparathyroidism and hypothyroidism?,endocrine_metabolic
+2709,What is the first thing to do for a pulmonary embolism?,other_general
+2727,What is the life expectancy of muscular dystrophy?,other_general
+2729,What is the life expectancy of someone with aortic stenosis?,other_general
+2736,What is the life expectancy of someone with thalassemia?,other_general
+2748,What is the main cause of bronchiectasis?,other_general
+2751,What is the main cause of dry eyes?,other_general
+2763,What is the main cause of ingrown hairs?,other_general
+2786,What is the main cause of shoulder pain?,other_general
+2795,What is the main cause of tinnitus?,other_general
+2806,What is the meaning of being irritable?,other_general
+2833,What is the most common cause of rectal bleeding?,injury_first_aid
+2837,What is the most common cause of toxic shock syndrome?,other_general
+2851,What is the most common reason for aphasia?,other_general
+2891,What is the survival rate of Kawasaki disease?,other_general
+2902,What are the symptoms of cerebral palsy?,other_general
+2930,What is yellow fever caused by?,infectious_disease
+2982,What symptoms can vasculitis cause?,other_general
+2993,What triggers BDD?,other_general
+2999,What triggers herpes genital?,other_general
+3016,What usually causes swelling?,other_general
+3028,What's the cause of hiccups?,other_general
+3036,What's the difference between RSV and croup?,other_general
+3106,Which are warning signs of head and neck cancer?,oncology
+3109,Which head injury is most serious?,other_general
+3116,Which treatment is best for achalasia?,other_general
+3129,Who were the 5 original Rolling Stones?,other_general
+3136,Why am I suddenly getting chilblains?,other_general
+3182,Why does my body twitch randomly?,dermatology
+3214,Why would my gums be swollen?,other_general
+3219,Will a toothache go away on its own?,other_general
+3224,Will CMT ever be cured?,other_general
+3232,Will roundworms go away on their own in humans?,other_general
+3348,"I have been diagnosed with general anxiety and depression by my family doctor. They wrote a prescription for me to have an emotional support dog, I have the paperwork, and I gave it to my apartment manager. They said I can't keep the ESD because I'm not disabled. What do you suggest I do?",mental_health
+3406,I am going through a very hard time and I'm so depressed. My parents are getting a divorce and a lot of bad things are happening. I want to lull myself.,mental_health
+3420,"I used to be the funny guy of the group—the class clown, if you will. I used to laugh uncontrollably all the time and be able to be social without it feeling awkward. Now I can't laugh at all, and I'm dead inside.",other_general
+3423,"I feel like I am not at a good state of mind. I'm very unsettled in my soul. I'm not happy with myself or the decisions I make, which makes me not happy with anyone else. I feel like a failure most of my days. I don't feel like I'm good at anything anymore. I feel like less of a person.",other_general
+3456,I always feel like I'm not good enough and it literally is so hard living. I don't know how to talk to my parents about it.,other_general
+3469,My two adult sons live with me. One has been having panic attacks and hasn't been able to work for over 6 months. He doesn't want to get help. I'm feeling so overwhelmed. What can I do?,mental_health
+3491,"I was in a car accident and totaled my car. I gave up my job of nine years to pursue school full-time to better myself. I failed a class, and my boyfriend that I live with thinks I’m stupid and wants to break up with me. I have nowhere to go, and I feel like I’m losing everything.",injury_first_aid
+3492,I have been thinking a lot about certain situations and having my worries about what others may think or say.,other_general
+3494,I have a bad habit of thinking and worrying about what others may think of me. I really want to stop it and enjoy things.,other_general
+3510,I shake and have panic attacks.,mental_health
+3528,"My boyfriend and I have been dating for almost a year. We go to different schools, and we don't see each other that often. I just feel very paranoid that there's someone else or that he could be hiding something from me.",other_general
+3529,"I'm concerned about my boyfriend. I suffer from anxiety, but I always have this feeling he wants to hurt me because he told me he was interested in BDSM intercourse. We haven't tried it, but I've had this feeling he always wants to.",mental_health
+3618,"I keep hearing I am attractive from people around me, and I think I believe it. But I have low confidence regarding approaching girls I like.",other_general
+3622,My wife just last week said she wants a divorce and it's all sudden. I understand that marriages have their ups and downs but I don't understand why she can't tell me why she wants a divorce. Should I fight for my family (daughter and wife)?,other_general
+3628,"I got engaged, and everything was going well. Things went downhill at some point, and I broke off the engagement due to an opportunity to go to college. After that, I found out she had been cheating on me. I think about her all the time now, and we have been communicating on and off, but my friends/family don't know.",other_general
+3636,My fiancé and I broke up. He cheated on me numerous times. I kept forgiving but questioning his every move. He got tired and left.,reproductive_sexual_health
+3653,Does this go against any ethical codes? Are there legal ramifications?,other_general
+3673,"At a friend's house, we had some drinks and watched some television. He got up and went to bed. I felt sick. He came out to see if I was okay, and I said no. I said I wanted to go home, and he told me to come lay down. As I laid down on the bed, he started touching me. A friend called me, then I able to leave.",other_general
+3687,"When I got home, my boyfriend and I got into an argument. He got upset and he started hitting his face. That is the first time he has ever done that, but I would be lying if I said that didn't scare me. I locked myself in the room.",other_general
+3790,We make love once per month. Is it normal?,other_general
+3792,I have this weird fetish that I'm afraid to open up about it. What should I do?,other_general
+3810,"My mother has Alzheimer's and she has become so nasty and mean to everyone and she always asks for unrealistic, silly or meaningless items. I get so frustrated and angry, but then I feel guilty because I know it probably isn’t her fault. How can I cope with feeling like this?",reproductive_sexual_health
+3843,"It happens especially at me and my sister, and then she gets emotional and brings up the past. How should I deal with it? She is always stressed about her work and doesn't put her family first.",mental_health
+3845,"I'm in love with my own gender, and my parents are against that. I don't know how to tell them because I'm afraid they'll not want me anymore.",other_general
+3918,I blame my past relationship for it. I know it is bad to be this way. I want to get past it.,other_general
+3940,What do I do if I have been feeling like I could never be with anyone because no one would want me. Or I couldn't have many friends because of who I am. It's strange I want to be loved but I'd hate to be because I always lose.,other_general
+3948,We do communicate but one of us has trouble accepting what the other person says. How can I fix things?,other_general
+3984,"It's been like a couple of years that I've been feeling like this. I don't want to self-diagnose, but I get so sad and cry and then I feel better. But then I get upset with people so quickly, and I hurt their feelings. It's this constant rollercoaster, and it's hard.",other_general
+4033,Why do I get this intense stomach pain during the middle of the night?,gastrointestinal
+5603,Can I go to the ER for Psoriasis?,dermatology
+5637,Spinal Tumor????,oncology
+5679,Confused about a particular lab test my Dr ordered,other_general
+5727,hematuria after running,other_general
+5779,Too physically and mentally tired to do anything I want to do despite healthy living,other_general
+5797,What Specialist Should I See?,other_general
+5827,Mom started coughing up lots of blood and short of breath.,respiratory
+5871,"Frequent headaches, thought they were due to pregnancy, but now I'm not so sure anymore.",neurological
+5889,"I donated blood at the beginning of July. Got a letter in the weeks after saying that I had initially tested positive for HTLV 1/2. After conducting the confirmatory test, they explained that the second test came back as negative which confirmed it was a false positive. So fast forward to October 26th and I donated again. Sure enough, it came back as positive for the same HTLV again. They're in the middle of confirmatory testing again and I should know in about a week if it came back negative again. My question is, if it came back as a false positive a few months ago, is there a chance that it could be different this time and come back as positive both times? Should I be worried? If it is a false positive again, should I be worried about whatever is in my blood which is making come back as positive initially?",reproductive_sexual_health
+7493,Black/blue skin on the inside of leg,dermatology
+7513,"My boyfriend is experiencing sudden sharp back pain—sides of back, near ribs, below shoulder blades",gastrointestinal
+7546,Strange stomach issues,gastrointestinal
+7598,Urinating makes my brain weak?,neurological
+7638,"I have hep c and I'm in the acute phase. The kicker is I don't have insurance and don't know what steps to take until I can see a doctor. What should I avoid and what should I take (milk thistle, etc.)?",other_general
+7695,Not sure if I had a seizure or if I feinted?,neurological
+7717,Why would anti-depressants cause this bad side effect?,mental_health
+7775,Chest pain and breathing problems,cardiovascular
+7787,I've taken a notable amount of pills at once. Could I be in danger?,medication_pharmacology
